@@ -1,0 +1,11 @@
+pandas
+requests
+pyarrow
+pyspark
+lightgbm
+scikit-learn
+prophet
+shap
+streamlit
+plotly
+matplotlib

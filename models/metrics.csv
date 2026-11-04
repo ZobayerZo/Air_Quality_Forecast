@@ -1,0 +1,7 @@
+horizon_h,model,MAE,RMSE
+24,Persistence,14.67,29.24
+24,LightGBM,12.92,24.21
+48,Persistence,17.58,33.98
+48,LightGBM,14.6,26.66
+72,Persistence,18.59,35.18
+72,LightGBM,15.15,27.41

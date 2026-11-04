@@ -1,0 +1,1396 @@
+feature,city,mean_abs_shap,group
+pm2_5,Bangkok,10.3946,Recent PM2.5 history
+pm10,Bangkok,0.0721,Other pollutants
+nitrogen_dioxide,Bangkok,0.2482,Other pollutants
+ozone,Bangkok,0.0842,Other pollutants
+carbon_monoxide,Bangkok,1.2274,Other pollutants
+us_aqi,Bangkok,0.0133,Other pollutants
+temperature_2m,Bangkok,0.3565,Weather
+relative_humidity_2m,Bangkok,0.0134,Weather
+wind_speed_10m,Bangkok,0.1752,Weather
+wind_direction_10m,Bangkok,0.008,Weather
+surface_pressure,Bangkok,0.3877,Weather
+precipitation,Bangkok,0.1214,Weather
+cloud_cover,Bangkok,0.2588,Weather
+pm2_5_lag_1h,Bangkok,1.4492,Recent PM2.5 history
+pm2_5_lag_2h,Bangkok,0.0231,Recent PM2.5 history
+pm2_5_lag_3h,Bangkok,0.0581,Recent PM2.5 history
+pm2_5_lag_6h,Bangkok,0.1012,Recent PM2.5 history
+pm2_5_lag_12h,Bangkok,0.0186,Recent PM2.5 history
+pm2_5_lag_24h,Bangkok,0.7072,Recent PM2.5 history
+pm2_5_lag_48h,Bangkok,0.4308,Recent PM2.5 history
+pm2_5_lag_72h,Bangkok,0.4926,Recent PM2.5 history
+pm2_5_lag_168h,Bangkok,1.0678,Recent PM2.5 history
+pm2_5_roll_mean_6h,Bangkok,0.0122,Recent PM2.5 history
+pm2_5_roll_mean_24h,Bangkok,0.0553,Recent PM2.5 history
+pm2_5_roll_mean_168h,Bangkok,0.872,Recent PM2.5 history
+pm2_5_roll_std_24h,Bangkok,0.0232,Recent PM2.5 history
+pm2_5_roll_max_24h,Bangkok,0.0459,Recent PM2.5 history
+pm2_5_roll_std_168h,Bangkok,0.1426,Recent PM2.5 history
+wind_roll_mean_24h,Bangkok,0.0648,Weather
+humidity_roll_mean_24h,Bangkok,0.1927,Weather
+temp_roll_mean_24h,Bangkok,0.3683,Weather
+precip_sum_24h,Bangkok,0.6156,Weather
+pressure_change_24h,Bangkok,0.0986,Weather
+hour,Bangkok,0.0979,Time / season
+day_of_week,Bangkok,0.029,Time / season
+month,Bangkok,0.0025,Time / season
+day_of_year,Bangkok,0.068,Time / season
+is_weekend,Bangkok,0.0155,Time / season
+hour_sin,Bangkok,0.1427,Time / season
+hour_cos,Bangkok,0.1026,Time / season
+doy_sin,Bangkok,0.0797,Time / season
+doy_cos,Bangkok,0.1714,Time / season
+wind_dir_sin,Bangkok,0.0282,Weather
+wind_dir_cos,Bangkok,0.0306,Weather
+city_code,Bangkok,0.7214,Location
+pm2_5,Beijing,28.3307,Recent PM2.5 history
+pm10,Beijing,0.2717,Other pollutants
+nitrogen_dioxide,Beijing,0.4058,Other pollutants
+ozone,Beijing,0.287,Other pollutants
+carbon_monoxide,Beijing,1.2388,Other pollutants
+us_aqi,Beijing,0.3018,Other pollutants
+temperature_2m,Beijing,0.8124,Weather
+relative_humidity_2m,Beijing,0.1634,Weather
+wind_speed_10m,Beijing,0.4895,Weather
+wind_direction_10m,Beijing,0.1143,Weather
+surface_pressure,Beijing,2.6152,Weather
+precipitation,Beijing,0.2017,Weather
+cloud_cover,Beijing,1.6023,Weather
+pm2_5_lag_1h,Beijing,3.7977,Recent PM2.5 history
+pm2_5_lag_2h,Beijing,0.1429,Recent PM2.5 history
+pm2_5_lag_3h,Beijing,0.3323,Recent PM2.5 history
+pm2_5_lag_6h,Beijing,0.6785,Recent PM2.5 history
+pm2_5_lag_12h,Beijing,0.1421,Recent PM2.5 history
+pm2_5_lag_24h,Beijing,1.8316,Recent PM2.5 history
+pm2_5_lag_48h,Beijing,1.6012,Recent PM2.5 history
+pm2_5_lag_72h,Beijing,1.8021,Recent PM2.5 history
+pm2_5_lag_168h,Beijing,2.6893,Recent PM2.5 history
+pm2_5_roll_mean_6h,Beijing,0.1455,Recent PM2.5 history
+pm2_5_roll_mean_24h,Beijing,0.4841,Recent PM2.5 history
+pm2_5_roll_mean_168h,Beijing,2.6459,Recent PM2.5 history
+pm2_5_roll_std_24h,Beijing,0.2483,Recent PM2.5 history
+pm2_5_roll_max_24h,Beijing,0.6893,Recent PM2.5 history
+pm2_5_roll_std_168h,Beijing,1.0944,Recent PM2.5 history
+wind_roll_mean_24h,Beijing,0.4512,Weather
+humidity_roll_mean_24h,Beijing,0.9003,Weather
+temp_roll_mean_24h,Beijing,1.0145,Weather
+precip_sum_24h,Beijing,1.6891,Weather
+pressure_change_24h,Beijing,0.9773,Weather
+hour,Beijing,0.5032,Time / season
+day_of_week,Beijing,0.2139,Time / season
+month,Beijing,0.0536,Time / season
+day_of_year,Beijing,0.3834,Time / season
+is_weekend,Beijing,0.1076,Time / season
+hour_sin,Beijing,0.955,Time / season
+hour_cos,Beijing,0.5913,Time / season
+doy_sin,Beijing,1.0008,Time / season
+doy_cos,Beijing,1.0329,Time / season
+wind_dir_sin,Beijing,0.1341,Weather
+wind_dir_cos,Beijing,0.6664,Weather
+city_code,Beijing,5.9336,Location
+pm2_5,Berlin,13.6294,Recent PM2.5 history
+pm10,Berlin,0.0794,Other pollutants
+nitrogen_dioxide,Berlin,0.1688,Other pollutants
+ozone,Berlin,0.0566,Other pollutants
+carbon_monoxide,Berlin,0.8469,Other pollutants
+us_aqi,Berlin,0.0073,Other pollutants
+temperature_2m,Berlin,0.5984,Weather
+relative_humidity_2m,Berlin,0.0099,Weather
+wind_speed_10m,Berlin,0.1875,Weather
+wind_direction_10m,Berlin,0.0072,Weather
+surface_pressure,Berlin,0.5128,Weather
+precipitation,Berlin,0.0802,Weather
+cloud_cover,Berlin,0.4318,Weather
+pm2_5_lag_1h,Berlin,1.7566,Recent PM2.5 history
+pm2_5_lag_2h,Berlin,0.0137,Recent PM2.5 history
+pm2_5_lag_3h,Berlin,0.0622,Recent PM2.5 history
+pm2_5_lag_6h,Berlin,0.1262,Recent PM2.5 history
+pm2_5_lag_12h,Berlin,0.0092,Recent PM2.5 history
+pm2_5_lag_24h,Berlin,0.8061,Recent PM2.5 history
+pm2_5_lag_48h,Berlin,0.5489,Recent PM2.5 history
+pm2_5_lag_72h,Berlin,0.5653,Recent PM2.5 history
+pm2_5_lag_168h,Berlin,1.1353,Recent PM2.5 history
+pm2_5_roll_mean_6h,Berlin,0.0317,Recent PM2.5 history
+pm2_5_roll_mean_24h,Berlin,0.0588,Recent PM2.5 history
+pm2_5_roll_mean_168h,Berlin,1.4658,Recent PM2.5 history
+pm2_5_roll_std_24h,Berlin,0.0472,Recent PM2.5 history
+pm2_5_roll_max_24h,Berlin,0.0212,Recent PM2.5 history
+pm2_5_roll_std_168h,Berlin,0.1052,Recent PM2.5 history
+wind_roll_mean_24h,Berlin,0.0364,Weather
+humidity_roll_mean_24h,Berlin,0.1646,Weather
+temp_roll_mean_24h,Berlin,0.2326,Weather
+precip_sum_24h,Berlin,0.3543,Weather
+pressure_change_24h,Berlin,0.2833,Weather
+hour,Berlin,0.0663,Time / season
+day_of_week,Berlin,0.0199,Time / season
+month,Berlin,0.0045,Time / season
+day_of_year,Berlin,0.0355,Time / season
+is_weekend,Berlin,0.0136,Time / season
+hour_sin,Berlin,0.1301,Time / season
+hour_cos,Berlin,0.0535,Time / season
+doy_sin,Berlin,0.0855,Time / season
+doy_cos,Berlin,0.1624,Time / season
+wind_dir_sin,Berlin,0.0274,Weather
+wind_dir_cos,Berlin,0.0476,Weather
+city_code,Berlin,4.5284,Location
+pm2_5,Cairo,8.3697,Recent PM2.5 history
+pm10,Cairo,0.0393,Other pollutants
+nitrogen_dioxide,Cairo,0.242,Other pollutants
+ozone,Cairo,0.0798,Other pollutants
+carbon_monoxide,Cairo,0.871,Other pollutants
+us_aqi,Cairo,0.0136,Other pollutants
+temperature_2m,Cairo,0.3777,Weather
+relative_humidity_2m,Cairo,0.012,Weather
+wind_speed_10m,Cairo,0.1521,Weather
+wind_direction_10m,Cairo,0.0186,Weather
+surface_pressure,Cairo,0.3175,Weather
+precipitation,Cairo,0.0873,Weather
+cloud_cover,Cairo,0.2541,Weather
+pm2_5_lag_1h,Cairo,1.1242,Recent PM2.5 history
+pm2_5_lag_2h,Cairo,0.0139,Recent PM2.5 history
+pm2_5_lag_3h,Cairo,0.0635,Recent PM2.5 history
+pm2_5_lag_6h,Cairo,0.1127,Recent PM2.5 history
+pm2_5_lag_12h,Cairo,0.0058,Recent PM2.5 history
+pm2_5_lag_24h,Cairo,0.6756,Recent PM2.5 history
+pm2_5_lag_48h,Cairo,0.4505,Recent PM2.5 history
+pm2_5_lag_72h,Cairo,0.6273,Recent PM2.5 history
+pm2_5_lag_168h,Cairo,1.0087,Recent PM2.5 history
+pm2_5_roll_mean_6h,Cairo,0.0133,Recent PM2.5 history
+pm2_5_roll_mean_24h,Cairo,0.0308,Recent PM2.5 history
+pm2_5_roll_mean_168h,Cairo,0.7924,Recent PM2.5 history
+pm2_5_roll_std_24h,Cairo,0.0308,Recent PM2.5 history
+pm2_5_roll_max_24h,Cairo,0.0271,Recent PM2.5 history
+pm2_5_roll_std_168h,Cairo,0.0992,Recent PM2.5 history
+wind_roll_mean_24h,Cairo,0.0302,Weather
+humidity_roll_mean_24h,Cairo,0.2105,Weather
+temp_roll_mean_24h,Cairo,0.0939,Weather
+precip_sum_24h,Cairo,0.2375,Weather
+pressure_change_24h,Cairo,0.085,Weather
+hour,Cairo,0.0582,Time / season
+day_of_week,Cairo,0.0159,Time / season
+month,Cairo,0.0054,Time / season
+day_of_year,Cairo,0.0387,Time / season
+is_weekend,Cairo,0.018,Time / season
+hour_sin,Cairo,0.1261,Time / season
+hour_cos,Cairo,0.0579,Time / season
+doy_sin,Cairo,0.0842,Time / season
+doy_cos,Cairo,0.1807,Time / season
+wind_dir_sin,Cairo,0.0374,Weather
+wind_dir_cos,Cairo,0.0823,Weather
+city_code,Cairo,1.7251,Location
+pm2_5,Chittagong,12.0778,Recent PM2.5 history
+pm10,Chittagong,0.0679,Other pollutants
+nitrogen_dioxide,Chittagong,0.1786,Other pollutants
+ozone,Chittagong,0.0838,Other pollutants
+carbon_monoxide,Chittagong,0.5299,Other pollutants
+us_aqi,Chittagong,0.0139,Other pollutants
+temperature_2m,Chittagong,0.4079,Weather
+relative_humidity_2m,Chittagong,0.0097,Weather
+wind_speed_10m,Chittagong,0.1844,Weather
+wind_direction_10m,Chittagong,0.0148,Weather
+surface_pressure,Chittagong,0.4029,Weather
+precipitation,Chittagong,0.1261,Weather
+cloud_cover,Chittagong,0.5107,Weather
+pm2_5_lag_1h,Chittagong,1.6166,Recent PM2.5 history
+pm2_5_lag_2h,Chittagong,0.0254,Recent PM2.5 history
+pm2_5_lag_3h,Chittagong,0.0517,Recent PM2.5 history
+pm2_5_lag_6h,Chittagong,0.0879,Recent PM2.5 history
+pm2_5_lag_12h,Chittagong,0.008,Recent PM2.5 history
+pm2_5_lag_24h,Chittagong,0.7351,Recent PM2.5 history
+pm2_5_lag_48h,Chittagong,0.4423,Recent PM2.5 history
+pm2_5_lag_72h,Chittagong,0.5979,Recent PM2.5 history
+pm2_5_lag_168h,Chittagong,0.991,Recent PM2.5 history
+pm2_5_roll_mean_6h,Chittagong,0.0205,Recent PM2.5 history
+pm2_5_roll_mean_24h,Chittagong,0.0404,Recent PM2.5 history
+pm2_5_roll_mean_168h,Chittagong,1.1063,Recent PM2.5 history
+pm2_5_roll_std_24h,Chittagong,0.0168,Recent PM2.5 history
+pm2_5_roll_max_24h,Chittagong,0.0184,Recent PM2.5 history
+pm2_5_roll_std_168h,Chittagong,0.1248,Recent PM2.5 history
+wind_roll_mean_24h,Chittagong,0.0339,Weather
+humidity_roll_mean_24h,Chittagong,0.26,Weather
+temp_roll_mean_24h,Chittagong,0.0921,Weather
+precip_sum_24h,Chittagong,0.4939,Weather
+pressure_change_24h,Chittagong,0.0989,Weather
+hour,Chittagong,0.0718,Time / season
+day_of_week,Chittagong,0.0243,Time / season
+month,Chittagong,0.0031,Time / season
+day_of_year,Chittagong,0.0491,Time / season
+is_weekend,Chittagong,0.0134,Time / season
+hour_sin,Chittagong,0.1572,Time / season
+hour_cos,Chittagong,0.0727,Time / season
+doy_sin,Chittagong,0.1119,Time / season
+doy_cos,Chittagong,0.2122,Time / season
+wind_dir_sin,Chittagong,0.0347,Weather
+wind_dir_cos,Chittagong,0.0564,Weather
+city_code,Chittagong,0.4348,Location
+pm2_5,Delhi,31.2962,Recent PM2.5 history
+pm10,Delhi,0.4241,Other pollutants
+nitrogen_dioxide,Delhi,0.2734,Other pollutants
+ozone,Delhi,0.2602,Other pollutants
+carbon_monoxide,Delhi,1.2015,Other pollutants
+us_aqi,Delhi,0.3469,Other pollutants
+temperature_2m,Delhi,0.7103,Weather
+relative_humidity_2m,Delhi,0.0902,Weather
+wind_speed_10m,Delhi,0.4632,Weather
+wind_direction_10m,Delhi,0.0922,Weather
+surface_pressure,Delhi,0.7981,Weather
+precipitation,Delhi,0.1329,Weather
+cloud_cover,Delhi,0.8703,Weather
+pm2_5_lag_1h,Delhi,4.1516,Recent PM2.5 history
+pm2_5_lag_2h,Delhi,0.1056,Recent PM2.5 history
+pm2_5_lag_3h,Delhi,0.2262,Recent PM2.5 history
+pm2_5_lag_6h,Delhi,0.4278,Recent PM2.5 history
+pm2_5_lag_12h,Delhi,0.0573,Recent PM2.5 history
+pm2_5_lag_24h,Delhi,1.7733,Recent PM2.5 history
+pm2_5_lag_48h,Delhi,1.302,Recent PM2.5 history
+pm2_5_lag_72h,Delhi,1.4954,Recent PM2.5 history
+pm2_5_lag_168h,Delhi,2.6414,Recent PM2.5 history
+pm2_5_roll_mean_6h,Delhi,0.1015,Recent PM2.5 history
+pm2_5_roll_mean_24h,Delhi,0.2985,Recent PM2.5 history
+pm2_5_roll_mean_168h,Delhi,2.3705,Recent PM2.5 history
+pm2_5_roll_std_24h,Delhi,0.1874,Recent PM2.5 history
+pm2_5_roll_max_24h,Delhi,0.2447,Recent PM2.5 history
+pm2_5_roll_std_168h,Delhi,0.4947,Recent PM2.5 history
+wind_roll_mean_24h,Delhi,0.2257,Weather
+humidity_roll_mean_24h,Delhi,0.4781,Weather
+temp_roll_mean_24h,Delhi,0.5703,Weather
+precip_sum_24h,Delhi,1.4568,Weather
+pressure_change_24h,Delhi,0.317,Weather
+hour,Delhi,0.2503,Time / season
+day_of_week,Delhi,0.163,Time / season
+month,Delhi,0.0431,Time / season
+day_of_year,Delhi,0.3608,Time / season
+is_weekend,Delhi,0.076,Time / season
+hour_sin,Delhi,0.5306,Time / season
+hour_cos,Delhi,0.2052,Time / season
+doy_sin,Delhi,0.6838,Time / season
+doy_cos,Delhi,1.3033,Time / season
+wind_dir_sin,Delhi,0.2971,Weather
+wind_dir_cos,Delhi,0.3335,Weather
+city_code,Delhi,4.4746,Location
+pm2_5,Dhaka,15.7149,Recent PM2.5 history
+pm10,Dhaka,0.0749,Other pollutants
+nitrogen_dioxide,Dhaka,0.2114,Other pollutants
+ozone,Dhaka,0.1211,Other pollutants
+carbon_monoxide,Dhaka,0.7235,Other pollutants
+us_aqi,Dhaka,0.0387,Other pollutants
+temperature_2m,Dhaka,0.5751,Weather
+relative_humidity_2m,Dhaka,0.0215,Weather
+wind_speed_10m,Dhaka,0.3578,Weather
+wind_direction_10m,Dhaka,0.0367,Weather
+surface_pressure,Dhaka,0.525,Weather
+precipitation,Dhaka,0.1208,Weather
+cloud_cover,Dhaka,0.5833,Weather
+pm2_5_lag_1h,Dhaka,2.0639,Recent PM2.5 history
+pm2_5_lag_2h,Dhaka,0.047,Recent PM2.5 history
+pm2_5_lag_3h,Dhaka,0.0982,Recent PM2.5 history
+pm2_5_lag_6h,Dhaka,0.1156,Recent PM2.5 history
+pm2_5_lag_12h,Dhaka,0.0175,Recent PM2.5 history
+pm2_5_lag_24h,Dhaka,0.9856,Recent PM2.5 history
+pm2_5_lag_48h,Dhaka,0.5992,Recent PM2.5 history
+pm2_5_lag_72h,Dhaka,0.7696,Recent PM2.5 history
+pm2_5_lag_168h,Dhaka,1.3714,Recent PM2.5 history
+pm2_5_roll_mean_6h,Dhaka,0.0456,Recent PM2.5 history
+pm2_5_roll_mean_24h,Dhaka,0.0728,Recent PM2.5 history
+pm2_5_roll_mean_168h,Dhaka,1.2807,Recent PM2.5 history
+pm2_5_roll_std_24h,Dhaka,0.0398,Recent PM2.5 history
+pm2_5_roll_max_24h,Dhaka,0.0463,Recent PM2.5 history
+pm2_5_roll_std_168h,Dhaka,0.1756,Recent PM2.5 history
+wind_roll_mean_24h,Dhaka,0.0661,Weather
+humidity_roll_mean_24h,Dhaka,0.2624,Weather
+temp_roll_mean_24h,Dhaka,0.2655,Weather
+precip_sum_24h,Dhaka,0.675,Weather
+pressure_change_24h,Dhaka,0.1619,Weather
+hour,Dhaka,0.1507,Time / season
+day_of_week,Dhaka,0.0394,Time / season
+month,Dhaka,0.01,Time / season
+day_of_year,Dhaka,0.1007,Time / season
+is_weekend,Dhaka,0.029,Time / season
+hour_sin,Dhaka,0.3198,Time / season
+hour_cos,Dhaka,0.1063,Time / season
+doy_sin,Dhaka,0.2241,Time / season
+doy_cos,Dhaka,0.454,Time / season
+wind_dir_sin,Dhaka,0.0549,Weather
+wind_dir_cos,Dhaka,0.0876,Weather
+city_code,Dhaka,2.8555,Location
+pm2_5,Hanoi,12.2637,Recent PM2.5 history
+pm10,Hanoi,0.0712,Other pollutants
+nitrogen_dioxide,Hanoi,0.1628,Other pollutants
+ozone,Hanoi,0.1075,Other pollutants
+carbon_monoxide,Hanoi,1.0911,Other pollutants
+us_aqi,Hanoi,0.0349,Other pollutants
+temperature_2m,Hanoi,0.5859,Weather
+relative_humidity_2m,Hanoi,0.0451,Weather
+wind_speed_10m,Hanoi,0.4098,Weather
+wind_direction_10m,Hanoi,0.0386,Weather
+surface_pressure,Hanoi,0.8439,Weather
+precipitation,Hanoi,0.1905,Weather
+cloud_cover,Hanoi,0.4508,Weather
+pm2_5_lag_1h,Hanoi,1.6948,Recent PM2.5 history
+pm2_5_lag_2h,Hanoi,0.0681,Recent PM2.5 history
+pm2_5_lag_3h,Hanoi,0.1379,Recent PM2.5 history
+pm2_5_lag_6h,Hanoi,0.1959,Recent PM2.5 history
+pm2_5_lag_12h,Hanoi,0.0192,Recent PM2.5 history
+pm2_5_lag_24h,Hanoi,0.7458,Recent PM2.5 history
+pm2_5_lag_48h,Hanoi,0.6648,Recent PM2.5 history
+pm2_5_lag_72h,Hanoi,0.8627,Recent PM2.5 history
+pm2_5_lag_168h,Hanoi,1.3848,Recent PM2.5 history
+pm2_5_roll_mean_6h,Hanoi,0.0681,Recent PM2.5 history
+pm2_5_roll_mean_24h,Hanoi,0.0632,Recent PM2.5 history
+pm2_5_roll_mean_168h,Hanoi,1.2569,Recent PM2.5 history
+pm2_5_roll_std_24h,Hanoi,0.058,Recent PM2.5 history
+pm2_5_roll_max_24h,Hanoi,0.0831,Recent PM2.5 history
+pm2_5_roll_std_168h,Hanoi,0.1758,Recent PM2.5 history
+wind_roll_mean_24h,Hanoi,0.0784,Weather
+humidity_roll_mean_24h,Hanoi,0.4619,Weather
+temp_roll_mean_24h,Hanoi,0.2503,Weather
+precip_sum_24h,Hanoi,0.7372,Weather
+pressure_change_24h,Hanoi,0.1726,Weather
+hour,Hanoi,0.1806,Time / season
+day_of_week,Hanoi,0.0416,Time / season
+month,Hanoi,0.0046,Time / season
+day_of_year,Hanoi,0.0956,Time / season
+is_weekend,Hanoi,0.0435,Time / season
+hour_sin,Hanoi,0.3506,Time / season
+hour_cos,Hanoi,0.1424,Time / season
+doy_sin,Hanoi,0.1718,Time / season
+doy_cos,Hanoi,0.312,Time / season
+wind_dir_sin,Hanoi,0.0511,Weather
+wind_dir_cos,Hanoi,0.0469,Weather
+city_code,Hanoi,2.1151,Location
+pm2_5,Istanbul,10.8116,Recent PM2.5 history
+pm10,Istanbul,0.0564,Other pollutants
+nitrogen_dioxide,Istanbul,0.2406,Other pollutants
+ozone,Istanbul,0.0743,Other pollutants
+carbon_monoxide,Istanbul,0.8104,Other pollutants
+us_aqi,Istanbul,0.0196,Other pollutants
+temperature_2m,Istanbul,0.4632,Weather
+relative_humidity_2m,Istanbul,0.0113,Weather
+wind_speed_10m,Istanbul,0.2427,Weather
+wind_direction_10m,Istanbul,0.0126,Weather
+surface_pressure,Istanbul,0.5943,Weather
+precipitation,Istanbul,0.1022,Weather
+cloud_cover,Istanbul,0.3278,Weather
+pm2_5_lag_1h,Istanbul,1.4873,Recent PM2.5 history
+pm2_5_lag_2h,Istanbul,0.0214,Recent PM2.5 history
+pm2_5_lag_3h,Istanbul,0.0835,Recent PM2.5 history
+pm2_5_lag_6h,Istanbul,0.1706,Recent PM2.5 history
+pm2_5_lag_12h,Istanbul,0.0093,Recent PM2.5 history
+pm2_5_lag_24h,Istanbul,0.897,Recent PM2.5 history
+pm2_5_lag_48h,Istanbul,0.5835,Recent PM2.5 history
+pm2_5_lag_72h,Istanbul,0.7282,Recent PM2.5 history
+pm2_5_lag_168h,Istanbul,1.2761,Recent PM2.5 history
+pm2_5_roll_mean_6h,Istanbul,0.0523,Recent PM2.5 history
+pm2_5_roll_mean_24h,Istanbul,0.0484,Recent PM2.5 history
+pm2_5_roll_mean_168h,Istanbul,1.1534,Recent PM2.5 history
+pm2_5_roll_std_24h,Istanbul,0.0392,Recent PM2.5 history
+pm2_5_roll_max_24h,Istanbul,0.0437,Recent PM2.5 history
+pm2_5_roll_std_168h,Istanbul,0.1168,Recent PM2.5 history
+wind_roll_mean_24h,Istanbul,0.0579,Weather
+humidity_roll_mean_24h,Istanbul,0.1761,Weather
+temp_roll_mean_24h,Istanbul,0.1447,Weather
+precip_sum_24h,Istanbul,0.3726,Weather
+pressure_change_24h,Istanbul,0.2413,Weather
+hour,Istanbul,0.1332,Time / season
+day_of_week,Istanbul,0.027,Time / season
+month,Istanbul,0.0052,Time / season
+day_of_year,Istanbul,0.0782,Time / season
+is_weekend,Istanbul,0.0187,Time / season
+hour_sin,Istanbul,0.2391,Time / season
+hour_cos,Istanbul,0.0638,Time / season
+doy_sin,Istanbul,0.0978,Time / season
+doy_cos,Istanbul,0.1936,Time / season
+wind_dir_sin,Istanbul,0.0312,Weather
+wind_dir_cos,Istanbul,0.0967,Weather
+city_code,Istanbul,2.1249,Location
+pm2_5,Jakarta,23.856,Recent PM2.5 history
+pm10,Jakarta,0.1277,Other pollutants
+nitrogen_dioxide,Jakarta,0.1625,Other pollutants
+ozone,Jakarta,0.1707,Other pollutants
+carbon_monoxide,Jakarta,1.5449,Other pollutants
+us_aqi,Jakarta,0.086,Other pollutants
+temperature_2m,Jakarta,0.3449,Weather
+relative_humidity_2m,Jakarta,0.057,Weather
+wind_speed_10m,Jakarta,0.5209,Weather
+wind_direction_10m,Jakarta,0.0315,Weather
+surface_pressure,Jakarta,0.5893,Weather
+precipitation,Jakarta,0.1638,Weather
+cloud_cover,Jakarta,0.5916,Weather
+pm2_5_lag_1h,Jakarta,3.1409,Recent PM2.5 history
+pm2_5_lag_2h,Jakarta,0.083,Recent PM2.5 history
+pm2_5_lag_3h,Jakarta,0.2191,Recent PM2.5 history
+pm2_5_lag_6h,Jakarta,0.3127,Recent PM2.5 history
+pm2_5_lag_12h,Jakarta,0.0227,Recent PM2.5 history
+pm2_5_lag_24h,Jakarta,1.8841,Recent PM2.5 history
+pm2_5_lag_48h,Jakarta,1.1763,Recent PM2.5 history
+pm2_5_lag_72h,Jakarta,1.2194,Recent PM2.5 history
+pm2_5_lag_168h,Jakarta,2.2251,Recent PM2.5 history
+pm2_5_roll_mean_6h,Jakarta,0.0863,Recent PM2.5 history
+pm2_5_roll_mean_24h,Jakarta,0.0956,Recent PM2.5 history
+pm2_5_roll_mean_168h,Jakarta,1.6662,Recent PM2.5 history
+pm2_5_roll_std_24h,Jakarta,0.1451,Recent PM2.5 history
+pm2_5_roll_max_24h,Jakarta,0.1757,Recent PM2.5 history
+pm2_5_roll_std_168h,Jakarta,0.2636,Recent PM2.5 history
+wind_roll_mean_24h,Jakarta,0.1025,Weather
+humidity_roll_mean_24h,Jakarta,0.266,Weather
+temp_roll_mean_24h,Jakarta,0.473,Weather
+precip_sum_24h,Jakarta,1.2596,Weather
+pressure_change_24h,Jakarta,0.1691,Weather
+hour,Jakarta,0.333,Time / season
+day_of_week,Jakarta,0.122,Time / season
+month,Jakarta,0.007,Time / season
+day_of_year,Jakarta,0.1164,Time / season
+is_weekend,Jakarta,0.066,Time / season
+hour_sin,Jakarta,0.4961,Time / season
+hour_cos,Jakarta,0.3577,Time / season
+doy_sin,Jakarta,0.3604,Time / season
+doy_cos,Jakarta,0.5519,Time / season
+wind_dir_sin,Jakarta,0.0492,Weather
+wind_dir_cos,Jakarta,0.1005,Weather
+city_code,Jakarta,3.6039,Location
+pm2_5,Johannesburg,12.1772,Recent PM2.5 history
+pm10,Johannesburg,0.0818,Other pollutants
+nitrogen_dioxide,Johannesburg,0.2485,Other pollutants
+ozone,Johannesburg,0.1246,Other pollutants
+carbon_monoxide,Johannesburg,0.7629,Other pollutants
+us_aqi,Johannesburg,0.0491,Other pollutants
+temperature_2m,Johannesburg,0.6501,Weather
+relative_humidity_2m,Johannesburg,0.0278,Weather
+wind_speed_10m,Johannesburg,0.2362,Weather
+wind_direction_10m,Johannesburg,0.0348,Weather
+surface_pressure,Johannesburg,0.5107,Weather
+precipitation,Johannesburg,0.1049,Weather
+cloud_cover,Johannesburg,0.2803,Weather
+pm2_5_lag_1h,Johannesburg,1.6215,Recent PM2.5 history
+pm2_5_lag_2h,Johannesburg,0.0542,Recent PM2.5 history
+pm2_5_lag_3h,Johannesburg,0.1936,Recent PM2.5 history
+pm2_5_lag_6h,Johannesburg,0.2667,Recent PM2.5 history
+pm2_5_lag_12h,Johannesburg,0.0209,Recent PM2.5 history
+pm2_5_lag_24h,Johannesburg,1.157,Recent PM2.5 history
+pm2_5_lag_48h,Johannesburg,0.788,Recent PM2.5 history
+pm2_5_lag_72h,Johannesburg,0.9638,Recent PM2.5 history
+pm2_5_lag_168h,Johannesburg,1.5222,Recent PM2.5 history
+pm2_5_roll_mean_6h,Johannesburg,0.0834,Recent PM2.5 history
+pm2_5_roll_mean_24h,Johannesburg,0.0694,Recent PM2.5 history
+pm2_5_roll_mean_168h,Johannesburg,1.0984,Recent PM2.5 history
+pm2_5_roll_std_24h,Johannesburg,0.1211,Recent PM2.5 history
+pm2_5_roll_max_24h,Johannesburg,0.1209,Recent PM2.5 history
+pm2_5_roll_std_168h,Johannesburg,0.3273,Recent PM2.5 history
+wind_roll_mean_24h,Johannesburg,0.0772,Weather
+humidity_roll_mean_24h,Johannesburg,0.1905,Weather
+temp_roll_mean_24h,Johannesburg,0.184,Weather
+precip_sum_24h,Johannesburg,0.4467,Weather
+pressure_change_24h,Johannesburg,0.1839,Weather
+hour,Johannesburg,0.1831,Time / season
+day_of_week,Johannesburg,0.0422,Time / season
+month,Johannesburg,0.0106,Time / season
+day_of_year,Johannesburg,0.065,Time / season
+is_weekend,Johannesburg,0.0448,Time / season
+hour_sin,Johannesburg,0.2358,Time / season
+hour_cos,Johannesburg,0.1075,Time / season
+doy_sin,Johannesburg,0.1204,Time / season
+doy_cos,Johannesburg,0.4056,Time / season
+wind_dir_sin,Johannesburg,0.0694,Weather
+wind_dir_cos,Johannesburg,0.2306,Weather
+city_code,Johannesburg,2.4677,Location
+pm2_5,Karachi,6.4409,Recent PM2.5 history
+pm10,Karachi,0.0274,Other pollutants
+nitrogen_dioxide,Karachi,0.2041,Other pollutants
+ozone,Karachi,0.0627,Other pollutants
+carbon_monoxide,Karachi,0.8026,Other pollutants
+us_aqi,Karachi,0.0092,Other pollutants
+temperature_2m,Karachi,0.2889,Weather
+relative_humidity_2m,Karachi,0.0086,Weather
+wind_speed_10m,Karachi,0.1401,Weather
+wind_direction_10m,Karachi,0.0102,Weather
+surface_pressure,Karachi,0.509,Weather
+precipitation,Karachi,0.0746,Weather
+cloud_cover,Karachi,0.4118,Weather
+pm2_5_lag_1h,Karachi,0.8847,Recent PM2.5 history
+pm2_5_lag_2h,Karachi,0.0178,Recent PM2.5 history
+pm2_5_lag_3h,Karachi,0.0475,Recent PM2.5 history
+pm2_5_lag_6h,Karachi,0.0979,Recent PM2.5 history
+pm2_5_lag_12h,Karachi,0.0088,Recent PM2.5 history
+pm2_5_lag_24h,Karachi,0.6448,Recent PM2.5 history
+pm2_5_lag_48h,Karachi,0.4131,Recent PM2.5 history
+pm2_5_lag_72h,Karachi,0.5663,Recent PM2.5 history
+pm2_5_lag_168h,Karachi,0.8615,Recent PM2.5 history
+pm2_5_roll_mean_6h,Karachi,0.0244,Recent PM2.5 history
+pm2_5_roll_mean_24h,Karachi,0.0343,Recent PM2.5 history
+pm2_5_roll_mean_168h,Karachi,0.6,Recent PM2.5 history
+pm2_5_roll_std_24h,Karachi,0.0176,Recent PM2.5 history
+pm2_5_roll_max_24h,Karachi,0.0203,Recent PM2.5 history
+pm2_5_roll_std_168h,Karachi,0.095,Recent PM2.5 history
+wind_roll_mean_24h,Karachi,0.0423,Weather
+humidity_roll_mean_24h,Karachi,0.1317,Weather
+temp_roll_mean_24h,Karachi,0.1185,Weather
+precip_sum_24h,Karachi,0.3005,Weather
+pressure_change_24h,Karachi,0.0798,Weather
+hour,Karachi,0.069,Time / season
+day_of_week,Karachi,0.0225,Time / season
+month,Karachi,0.0056,Time / season
+day_of_year,Karachi,0.046,Time / season
+is_weekend,Karachi,0.0168,Time / season
+hour_sin,Karachi,0.1338,Time / season
+hour_cos,Karachi,0.075,Time / season
+doy_sin,Karachi,0.092,Time / season
+doy_cos,Karachi,0.1916,Time / season
+wind_dir_sin,Karachi,0.0253,Weather
+wind_dir_cos,Karachi,0.0544,Weather
+city_code,Karachi,0.9032,Location
+pm2_5,Kathmandu,13.5261,Recent PM2.5 history
+pm10,Kathmandu,0.0913,Other pollutants
+nitrogen_dioxide,Kathmandu,0.1653,Other pollutants
+ozone,Kathmandu,0.1026,Other pollutants
+carbon_monoxide,Kathmandu,1.0112,Other pollutants
+us_aqi,Kathmandu,0.0271,Other pollutants
+temperature_2m,Kathmandu,0.2877,Weather
+relative_humidity_2m,Kathmandu,0.0239,Weather
+wind_speed_10m,Kathmandu,0.2598,Weather
+wind_direction_10m,Kathmandu,0.014,Weather
+surface_pressure,Kathmandu,0.3925,Weather
+precipitation,Kathmandu,0.1531,Weather
+cloud_cover,Kathmandu,0.4577,Weather
+pm2_5_lag_1h,Kathmandu,1.7357,Recent PM2.5 history
+pm2_5_lag_2h,Kathmandu,0.0375,Recent PM2.5 history
+pm2_5_lag_3h,Kathmandu,0.0794,Recent PM2.5 history
+pm2_5_lag_6h,Kathmandu,0.1348,Recent PM2.5 history
+pm2_5_lag_12h,Kathmandu,0.0146,Recent PM2.5 history
+pm2_5_lag_24h,Kathmandu,1.0315,Recent PM2.5 history
+pm2_5_lag_48h,Kathmandu,0.6405,Recent PM2.5 history
+pm2_5_lag_72h,Kathmandu,0.804,Recent PM2.5 history
+pm2_5_lag_168h,Kathmandu,1.3782,Recent PM2.5 history
+pm2_5_roll_mean_6h,Kathmandu,0.0417,Recent PM2.5 history
+pm2_5_roll_mean_24h,Kathmandu,0.0629,Recent PM2.5 history
+pm2_5_roll_mean_168h,Kathmandu,0.9747,Recent PM2.5 history
+pm2_5_roll_std_24h,Kathmandu,0.0365,Recent PM2.5 history
+pm2_5_roll_max_24h,Kathmandu,0.0384,Recent PM2.5 history
+pm2_5_roll_std_168h,Kathmandu,0.2094,Recent PM2.5 history
+wind_roll_mean_24h,Kathmandu,0.1358,Weather
+humidity_roll_mean_24h,Kathmandu,0.2478,Weather
+temp_roll_mean_24h,Kathmandu,0.1652,Weather
+precip_sum_24h,Kathmandu,0.6567,Weather
+pressure_change_24h,Kathmandu,0.1486,Weather
+hour,Kathmandu,0.1342,Time / season
+day_of_week,Kathmandu,0.0447,Time / season
+month,Kathmandu,0.0059,Time / season
+day_of_year,Kathmandu,0.0853,Time / season
+is_weekend,Kathmandu,0.0154,Time / season
+hour_sin,Kathmandu,0.2081,Time / season
+hour_cos,Kathmandu,0.0956,Time / season
+doy_sin,Kathmandu,0.2014,Time / season
+doy_cos,Kathmandu,0.3703,Time / season
+wind_dir_sin,Kathmandu,0.0378,Weather
+wind_dir_cos,Kathmandu,0.117,Weather
+city_code,Kathmandu,1.1067,Location
+pm2_5,Kolkata,24.0474,Recent PM2.5 history
+pm10,Kolkata,0.1313,Other pollutants
+nitrogen_dioxide,Kolkata,0.29,Other pollutants
+ozone,Kolkata,0.1868,Other pollutants
+carbon_monoxide,Kolkata,0.8567,Other pollutants
+us_aqi,Kolkata,0.1259,Other pollutants
+temperature_2m,Kolkata,0.555,Weather
+relative_humidity_2m,Kolkata,0.0288,Weather
+wind_speed_10m,Kolkata,0.4495,Weather
+wind_direction_10m,Kolkata,0.0858,Weather
+surface_pressure,Kolkata,0.7916,Weather
+precipitation,Kolkata,0.1323,Weather
+cloud_cover,Kolkata,0.6743,Weather
+pm2_5_lag_1h,Kolkata,3.1871,Recent PM2.5 history
+pm2_5_lag_2h,Kolkata,0.0708,Recent PM2.5 history
+pm2_5_lag_3h,Kolkata,0.1631,Recent PM2.5 history
+pm2_5_lag_6h,Kolkata,0.2164,Recent PM2.5 history
+pm2_5_lag_12h,Kolkata,0.0307,Recent PM2.5 history
+pm2_5_lag_24h,Kolkata,1.3824,Recent PM2.5 history
+pm2_5_lag_48h,Kolkata,0.9441,Recent PM2.5 history
+pm2_5_lag_72h,Kolkata,1.1609,Recent PM2.5 history
+pm2_5_lag_168h,Kolkata,1.8738,Recent PM2.5 history
+pm2_5_roll_mean_6h,Kolkata,0.0715,Recent PM2.5 history
+pm2_5_roll_mean_24h,Kolkata,0.1936,Recent PM2.5 history
+pm2_5_roll_mean_168h,Kolkata,1.6424,Recent PM2.5 history
+pm2_5_roll_std_24h,Kolkata,0.1045,Recent PM2.5 history
+pm2_5_roll_max_24h,Kolkata,0.12,Recent PM2.5 history
+pm2_5_roll_std_168h,Kolkata,0.3788,Recent PM2.5 history
+wind_roll_mean_24h,Kolkata,0.1382,Weather
+humidity_roll_mean_24h,Kolkata,0.2567,Weather
+temp_roll_mean_24h,Kolkata,0.3814,Weather
+precip_sum_24h,Kolkata,0.7915,Weather
+pressure_change_24h,Kolkata,0.1742,Weather
+hour,Kolkata,0.1637,Time / season
+day_of_week,Kolkata,0.0942,Time / season
+month,Kolkata,0.0233,Time / season
+day_of_year,Kolkata,0.2931,Time / season
+is_weekend,Kolkata,0.0625,Time / season
+hour_sin,Kolkata,0.3899,Time / season
+hour_cos,Kolkata,0.1496,Time / season
+doy_sin,Kolkata,0.4989,Time / season
+doy_cos,Kolkata,0.5258,Time / season
+wind_dir_sin,Kolkata,0.0795,Weather
+wind_dir_cos,Kolkata,0.1561,Weather
+city_code,Kolkata,4.3524,Location
+pm2_5,Lagos,9.816,Recent PM2.5 history
+pm10,Lagos,0.0379,Other pollutants
+nitrogen_dioxide,Lagos,0.1694,Other pollutants
+ozone,Lagos,0.0537,Other pollutants
+carbon_monoxide,Lagos,0.4705,Other pollutants
+us_aqi,Lagos,0.0085,Other pollutants
+temperature_2m,Lagos,0.2573,Weather
+relative_humidity_2m,Lagos,0.0059,Weather
+wind_speed_10m,Lagos,0.149,Weather
+wind_direction_10m,Lagos,0.006,Weather
+surface_pressure,Lagos,0.1518,Weather
+precipitation,Lagos,0.1524,Weather
+cloud_cover,Lagos,0.3455,Weather
+pm2_5_lag_1h,Lagos,1.3291,Recent PM2.5 history
+pm2_5_lag_2h,Lagos,0.0176,Recent PM2.5 history
+pm2_5_lag_3h,Lagos,0.0391,Recent PM2.5 history
+pm2_5_lag_6h,Lagos,0.0688,Recent PM2.5 history
+pm2_5_lag_12h,Lagos,0.0052,Recent PM2.5 history
+pm2_5_lag_24h,Lagos,0.7676,Recent PM2.5 history
+pm2_5_lag_48h,Lagos,0.4092,Recent PM2.5 history
+pm2_5_lag_72h,Lagos,0.5708,Recent PM2.5 history
+pm2_5_lag_168h,Lagos,0.9393,Recent PM2.5 history
+pm2_5_roll_mean_6h,Lagos,0.0074,Recent PM2.5 history
+pm2_5_roll_mean_24h,Lagos,0.0347,Recent PM2.5 history
+pm2_5_roll_mean_168h,Lagos,0.8326,Recent PM2.5 history
+pm2_5_roll_std_24h,Lagos,0.0217,Recent PM2.5 history
+pm2_5_roll_max_24h,Lagos,0.0178,Recent PM2.5 history
+pm2_5_roll_std_168h,Lagos,0.0902,Recent PM2.5 history
+wind_roll_mean_24h,Lagos,0.0187,Weather
+humidity_roll_mean_24h,Lagos,0.2546,Weather
+temp_roll_mean_24h,Lagos,0.099,Weather
+precip_sum_24h,Lagos,0.6751,Weather
+pressure_change_24h,Lagos,0.1031,Weather
+hour,Lagos,0.0905,Time / season
+day_of_week,Lagos,0.0221,Time / season
+month,Lagos,0.0031,Time / season
+day_of_year,Lagos,0.0625,Time / season
+is_weekend,Lagos,0.0134,Time / season
+hour_sin,Lagos,0.1225,Time / season
+hour_cos,Lagos,0.0643,Time / season
+doy_sin,Lagos,0.0808,Time / season
+doy_cos,Lagos,0.1687,Time / season
+wind_dir_sin,Lagos,0.0213,Weather
+wind_dir_cos,Lagos,0.0491,Weather
+city_code,Lagos,0.2247,Location
+pm2_5,Lahore,24.0742,Recent PM2.5 history
+pm10,Lahore,0.1204,Other pollutants
+nitrogen_dioxide,Lahore,0.2358,Other pollutants
+ozone,Lahore,0.2125,Other pollutants
+carbon_monoxide,Lahore,1.4351,Other pollutants
+us_aqi,Lahore,0.1175,Other pollutants
+temperature_2m,Lahore,0.7695,Weather
+relative_humidity_2m,Lahore,0.0358,Weather
+wind_speed_10m,Lahore,0.4742,Weather
+wind_direction_10m,Lahore,0.0575,Weather
+surface_pressure,Lahore,0.6644,Weather
+precipitation,Lahore,0.1231,Weather
+cloud_cover,Lahore,0.6736,Weather
+pm2_5_lag_1h,Lahore,3.139,Recent PM2.5 history
+pm2_5_lag_2h,Lahore,0.0838,Recent PM2.5 history
+pm2_5_lag_3h,Lahore,0.1823,Recent PM2.5 history
+pm2_5_lag_6h,Lahore,0.2553,Recent PM2.5 history
+pm2_5_lag_12h,Lahore,0.0498,Recent PM2.5 history
+pm2_5_lag_24h,Lahore,1.5316,Recent PM2.5 history
+pm2_5_lag_48h,Lahore,1.0651,Recent PM2.5 history
+pm2_5_lag_72h,Lahore,1.4005,Recent PM2.5 history
+pm2_5_lag_168h,Lahore,1.8789,Recent PM2.5 history
+pm2_5_roll_mean_6h,Lahore,0.0761,Recent PM2.5 history
+pm2_5_roll_mean_24h,Lahore,0.1907,Recent PM2.5 history
+pm2_5_roll_mean_168h,Lahore,1.8502,Recent PM2.5 history
+pm2_5_roll_std_24h,Lahore,0.1479,Recent PM2.5 history
+pm2_5_roll_max_24h,Lahore,0.2148,Recent PM2.5 history
+pm2_5_roll_std_168h,Lahore,0.3568,Recent PM2.5 history
+wind_roll_mean_24h,Lahore,0.1725,Weather
+humidity_roll_mean_24h,Lahore,0.2906,Weather
+temp_roll_mean_24h,Lahore,0.5156,Weather
+precip_sum_24h,Lahore,1.1018,Weather
+pressure_change_24h,Lahore,0.3013,Weather
+hour,Lahore,0.1929,Time / season
+day_of_week,Lahore,0.1713,Time / season
+month,Lahore,0.0207,Time / season
+day_of_year,Lahore,0.2437,Time / season
+is_weekend,Lahore,0.0394,Time / season
+hour_sin,Lahore,0.3775,Time / season
+hour_cos,Lahore,0.1227,Time / season
+doy_sin,Lahore,0.5024,Time / season
+doy_cos,Lahore,0.8549,Time / season
+wind_dir_sin,Lahore,0.1223,Weather
+wind_dir_cos,Lahore,0.2661,Weather
+city_code,Lahore,4.7477,Location
+pm2_5,London,14.2701,Recent PM2.5 history
+pm10,London,0.0495,Other pollutants
+nitrogen_dioxide,London,0.1609,Other pollutants
+ozone,London,0.0569,Other pollutants
+carbon_monoxide,London,0.9017,Other pollutants
+us_aqi,London,0.0071,Other pollutants
+temperature_2m,London,0.4097,Weather
+relative_humidity_2m,London,0.0095,Weather
+wind_speed_10m,London,0.2032,Weather
+wind_direction_10m,London,0.0078,Weather
+surface_pressure,London,0.6869,Weather
+precipitation,London,0.0847,Weather
+cloud_cover,London,0.3835,Weather
+pm2_5_lag_1h,London,1.8408,Recent PM2.5 history
+pm2_5_lag_2h,London,0.0145,Recent PM2.5 history
+pm2_5_lag_3h,London,0.0628,Recent PM2.5 history
+pm2_5_lag_6h,London,0.1163,Recent PM2.5 history
+pm2_5_lag_12h,London,0.0095,Recent PM2.5 history
+pm2_5_lag_24h,London,0.8028,Recent PM2.5 history
+pm2_5_lag_48h,London,0.5581,Recent PM2.5 history
+pm2_5_lag_72h,London,0.5753,Recent PM2.5 history
+pm2_5_lag_168h,London,1.183,Recent PM2.5 history
+pm2_5_roll_mean_6h,London,0.0285,Recent PM2.5 history
+pm2_5_roll_mean_24h,London,0.0644,Recent PM2.5 history
+pm2_5_roll_mean_168h,London,1.57,Recent PM2.5 history
+pm2_5_roll_std_24h,London,0.0496,Recent PM2.5 history
+pm2_5_roll_max_24h,London,0.0305,Recent PM2.5 history
+pm2_5_roll_std_168h,London,0.0894,Recent PM2.5 history
+wind_roll_mean_24h,London,0.0409,Weather
+humidity_roll_mean_24h,London,0.1609,Weather
+temp_roll_mean_24h,London,0.1161,Weather
+precip_sum_24h,London,0.3831,Weather
+pressure_change_24h,London,0.2953,Weather
+hour,London,0.0592,Time / season
+day_of_week,London,0.0183,Time / season
+month,London,0.0038,Time / season
+day_of_year,London,0.0405,Time / season
+is_weekend,London,0.0125,Time / season
+hour_sin,London,0.1315,Time / season
+hour_cos,London,0.0508,Time / season
+doy_sin,London,0.0831,Time / season
+doy_cos,London,0.1623,Time / season
+wind_dir_sin,London,0.0263,Weather
+wind_dir_cos,London,0.0508,Weather
+city_code,London,4.6829,Location
+pm2_5,Los Angeles,8.2809,Recent PM2.5 history
+pm10,Los Angeles,0.0472,Other pollutants
+nitrogen_dioxide,Los Angeles,0.1804,Other pollutants
+ozone,Los Angeles,0.0755,Other pollutants
+carbon_monoxide,Los Angeles,0.8031,Other pollutants
+us_aqi,Los Angeles,0.0143,Other pollutants
+temperature_2m,Los Angeles,0.2573,Weather
+relative_humidity_2m,Los Angeles,0.0105,Weather
+wind_speed_10m,Los Angeles,0.2677,Weather
+wind_direction_10m,Los Angeles,0.0081,Weather
+surface_pressure,Los Angeles,0.5781,Weather
+precipitation,Los Angeles,0.1138,Weather
+cloud_cover,Los Angeles,0.4659,Weather
+pm2_5_lag_1h,Los Angeles,1.1242,Recent PM2.5 history
+pm2_5_lag_2h,Los Angeles,0.0091,Recent PM2.5 history
+pm2_5_lag_3h,Los Angeles,0.0429,Recent PM2.5 history
+pm2_5_lag_6h,Los Angeles,0.0993,Recent PM2.5 history
+pm2_5_lag_12h,Los Angeles,0.0034,Recent PM2.5 history
+pm2_5_lag_24h,Los Angeles,0.6443,Recent PM2.5 history
+pm2_5_lag_48h,Los Angeles,0.4003,Recent PM2.5 history
+pm2_5_lag_72h,Los Angeles,0.5721,Recent PM2.5 history
+pm2_5_lag_168h,Los Angeles,0.9428,Recent PM2.5 history
+pm2_5_roll_mean_6h,Los Angeles,0.0127,Recent PM2.5 history
+pm2_5_roll_mean_24h,Los Angeles,0.0461,Recent PM2.5 history
+pm2_5_roll_mean_168h,Los Angeles,0.8984,Recent PM2.5 history
+pm2_5_roll_std_24h,Los Angeles,0.0185,Recent PM2.5 history
+pm2_5_roll_max_24h,Los Angeles,0.0153,Recent PM2.5 history
+pm2_5_roll_std_168h,Los Angeles,0.0961,Recent PM2.5 history
+wind_roll_mean_24h,Los Angeles,0.0781,Weather
+humidity_roll_mean_24h,Los Angeles,0.126,Weather
+temp_roll_mean_24h,Los Angeles,0.0774,Weather
+precip_sum_24h,Los Angeles,0.3132,Weather
+pressure_change_24h,Los Angeles,0.132,Weather
+hour,Los Angeles,0.0615,Time / season
+day_of_week,Los Angeles,0.0219,Time / season
+month,Los Angeles,0.0034,Time / season
+day_of_year,Los Angeles,0.0771,Time / season
+is_weekend,Los Angeles,0.0154,Time / season
+hour_sin,Los Angeles,0.1317,Time / season
+hour_cos,Los Angeles,0.0708,Time / season
+doy_sin,Los Angeles,0.0882,Time / season
+doy_cos,Los Angeles,0.1708,Time / season
+wind_dir_sin,Los Angeles,0.0332,Weather
+wind_dir_cos,Los Angeles,0.0324,Weather
+city_code,Los Angeles,2.9535,Location
+pm2_5,Mexico City,8.022,Recent PM2.5 history
+pm10,Mexico City,0.0501,Other pollutants
+nitrogen_dioxide,Mexico City,0.2099,Other pollutants
+ozone,Mexico City,0.1198,Other pollutants
+carbon_monoxide,Mexico City,0.6677,Other pollutants
+us_aqi,Mexico City,0.0081,Other pollutants
+temperature_2m,Mexico City,0.3412,Weather
+relative_humidity_2m,Mexico City,0.0116,Weather
+wind_speed_10m,Mexico City,0.2837,Weather
+wind_direction_10m,Mexico City,0.0115,Weather
+surface_pressure,Mexico City,0.5019,Weather
+precipitation,Mexico City,0.1107,Weather
+cloud_cover,Mexico City,0.2291,Weather
+pm2_5_lag_1h,Mexico City,1.0815,Recent PM2.5 history
+pm2_5_lag_2h,Mexico City,0.0169,Recent PM2.5 history
+pm2_5_lag_3h,Mexico City,0.0606,Recent PM2.5 history
+pm2_5_lag_6h,Mexico City,0.0849,Recent PM2.5 history
+pm2_5_lag_12h,Mexico City,0.0072,Recent PM2.5 history
+pm2_5_lag_24h,Mexico City,0.6935,Recent PM2.5 history
+pm2_5_lag_48h,Mexico City,0.5042,Recent PM2.5 history
+pm2_5_lag_72h,Mexico City,0.6008,Recent PM2.5 history
+pm2_5_lag_168h,Mexico City,1.0421,Recent PM2.5 history
+pm2_5_roll_mean_6h,Mexico City,0.0165,Recent PM2.5 history
+pm2_5_roll_mean_24h,Mexico City,0.0403,Recent PM2.5 history
+pm2_5_roll_mean_168h,Mexico City,0.731,Recent PM2.5 history
+pm2_5_roll_std_24h,Mexico City,0.0193,Recent PM2.5 history
+pm2_5_roll_max_24h,Mexico City,0.0207,Recent PM2.5 history
+pm2_5_roll_std_168h,Mexico City,0.1194,Recent PM2.5 history
+wind_roll_mean_24h,Mexico City,0.072,Weather
+humidity_roll_mean_24h,Mexico City,0.1442,Weather
+temp_roll_mean_24h,Mexico City,0.0479,Weather
+precip_sum_24h,Mexico City,0.3939,Weather
+pressure_change_24h,Mexico City,0.1069,Weather
+hour,Mexico City,0.0738,Time / season
+day_of_week,Mexico City,0.0257,Time / season
+month,Mexico City,0.0036,Time / season
+day_of_year,Mexico City,0.0446,Time / season
+is_weekend,Mexico City,0.0132,Time / season
+hour_sin,Mexico City,0.1333,Time / season
+hour_cos,Mexico City,0.0521,Time / season
+doy_sin,Mexico City,0.084,Time / season
+doy_cos,Mexico City,0.1718,Time / season
+wind_dir_sin,Mexico City,0.0322,Weather
+wind_dir_cos,Mexico City,0.0657,Weather
+city_code,Mexico City,3.1576,Location
+pm2_5,Mumbai,12.5898,Recent PM2.5 history
+pm10,Mumbai,0.0709,Other pollutants
+nitrogen_dioxide,Mumbai,0.2118,Other pollutants
+ozone,Mumbai,0.0933,Other pollutants
+carbon_monoxide,Mumbai,0.729,Other pollutants
+us_aqi,Mumbai,0.0212,Other pollutants
+temperature_2m,Mumbai,0.5089,Weather
+relative_humidity_2m,Mumbai,0.015,Weather
+wind_speed_10m,Mumbai,0.174,Weather
+wind_direction_10m,Mumbai,0.0152,Weather
+surface_pressure,Mumbai,0.3536,Weather
+precipitation,Mumbai,0.1343,Weather
+cloud_cover,Mumbai,0.3728,Weather
+pm2_5_lag_1h,Mumbai,1.6227,Recent PM2.5 history
+pm2_5_lag_2h,Mumbai,0.0341,Recent PM2.5 history
+pm2_5_lag_3h,Mumbai,0.0607,Recent PM2.5 history
+pm2_5_lag_6h,Mumbai,0.0793,Recent PM2.5 history
+pm2_5_lag_12h,Mumbai,0.0059,Recent PM2.5 history
+pm2_5_lag_24h,Mumbai,0.8679,Recent PM2.5 history
+pm2_5_lag_48h,Mumbai,0.5038,Recent PM2.5 history
+pm2_5_lag_72h,Mumbai,0.6716,Recent PM2.5 history
+pm2_5_lag_168h,Mumbai,1.0874,Recent PM2.5 history
+pm2_5_roll_mean_6h,Mumbai,0.0321,Recent PM2.5 history
+pm2_5_roll_mean_24h,Mumbai,0.0439,Recent PM2.5 history
+pm2_5_roll_mean_168h,Mumbai,1.0954,Recent PM2.5 history
+pm2_5_roll_std_24h,Mumbai,0.0214,Recent PM2.5 history
+pm2_5_roll_max_24h,Mumbai,0.0309,Recent PM2.5 history
+pm2_5_roll_std_168h,Mumbai,0.1435,Recent PM2.5 history
+wind_roll_mean_24h,Mumbai,0.0701,Weather
+humidity_roll_mean_24h,Mumbai,0.2101,Weather
+temp_roll_mean_24h,Mumbai,0.1816,Weather
+precip_sum_24h,Mumbai,0.5625,Weather
+pressure_change_24h,Mumbai,0.0978,Weather
+hour,Mumbai,0.0674,Time / season
+day_of_week,Mumbai,0.0276,Time / season
+month,Mumbai,0.003,Time / season
+day_of_year,Mumbai,0.0674,Time / season
+is_weekend,Mumbai,0.022,Time / season
+hour_sin,Mumbai,0.1499,Time / season
+hour_cos,Mumbai,0.1071,Time / season
+doy_sin,Mumbai,0.1526,Time / season
+doy_cos,Mumbai,0.2945,Time / season
+wind_dir_sin,Mumbai,0.0404,Weather
+wind_dir_cos,Mumbai,0.0461,Weather
+city_code,Mumbai,1.8634,Location
+pm2_5,Nairobi,12.2969,Recent PM2.5 history
+pm10,Nairobi,0.071,Other pollutants
+nitrogen_dioxide,Nairobi,0.1943,Other pollutants
+ozone,Nairobi,0.0738,Other pollutants
+carbon_monoxide,Nairobi,0.5288,Other pollutants
+us_aqi,Nairobi,0.0048,Other pollutants
+temperature_2m,Nairobi,0.2186,Weather
+relative_humidity_2m,Nairobi,0.0059,Weather
+wind_speed_10m,Nairobi,0.2311,Weather
+wind_direction_10m,Nairobi,0.0096,Weather
+surface_pressure,Nairobi,0.381,Weather
+precipitation,Nairobi,0.1035,Weather
+cloud_cover,Nairobi,0.1901,Weather
+pm2_5_lag_1h,Nairobi,1.6384,Recent PM2.5 history
+pm2_5_lag_2h,Nairobi,0.0038,Recent PM2.5 history
+pm2_5_lag_3h,Nairobi,0.0474,Recent PM2.5 history
+pm2_5_lag_6h,Nairobi,0.0787,Recent PM2.5 history
+pm2_5_lag_12h,Nairobi,0.0069,Recent PM2.5 history
+pm2_5_lag_24h,Nairobi,0.7944,Recent PM2.5 history
+pm2_5_lag_48h,Nairobi,0.524,Recent PM2.5 history
+pm2_5_lag_72h,Nairobi,0.5179,Recent PM2.5 history
+pm2_5_lag_168h,Nairobi,1.0697,Recent PM2.5 history
+pm2_5_roll_mean_6h,Nairobi,0.0109,Recent PM2.5 history
+pm2_5_roll_mean_24h,Nairobi,0.0369,Recent PM2.5 history
+pm2_5_roll_mean_168h,Nairobi,1.3553,Recent PM2.5 history
+pm2_5_roll_std_24h,Nairobi,0.0166,Recent PM2.5 history
+pm2_5_roll_max_24h,Nairobi,0.009,Recent PM2.5 history
+pm2_5_roll_std_168h,Nairobi,0.1296,Recent PM2.5 history
+wind_roll_mean_24h,Nairobi,0.0185,Weather
+humidity_roll_mean_24h,Nairobi,0.0882,Weather
+temp_roll_mean_24h,Nairobi,0.0125,Weather
+precip_sum_24h,Nairobi,0.3704,Weather
+pressure_change_24h,Nairobi,0.0911,Weather
+hour,Nairobi,0.0606,Time / season
+day_of_week,Nairobi,0.0204,Time / season
+month,Nairobi,0.0024,Time / season
+day_of_year,Nairobi,0.0314,Time / season
+is_weekend,Nairobi,0.0105,Time / season
+hour_sin,Nairobi,0.1048,Time / season
+hour_cos,Nairobi,0.0439,Time / season
+doy_sin,Nairobi,0.0635,Time / season
+doy_cos,Nairobi,0.1392,Time / season
+wind_dir_sin,Nairobi,0.0289,Weather
+wind_dir_cos,Nairobi,0.0449,Weather
+city_code,Nairobi,2.9777,Location
+pm2_5,New York,11.1723,Recent PM2.5 history
+pm10,New York,0.0514,Other pollutants
+nitrogen_dioxide,New York,0.19,Other pollutants
+ozone,New York,0.0873,Other pollutants
+carbon_monoxide,New York,0.6074,Other pollutants
+us_aqi,New York,0.0098,Other pollutants
+temperature_2m,New York,0.4782,Weather
+relative_humidity_2m,New York,0.0119,Weather
+wind_speed_10m,New York,0.1486,Weather
+wind_direction_10m,New York,0.0101,Weather
+surface_pressure,New York,0.5735,Weather
+precipitation,New York,0.1294,Weather
+cloud_cover,New York,0.5127,Weather
+pm2_5_lag_1h,New York,1.4566,Recent PM2.5 history
+pm2_5_lag_2h,New York,0.0121,Recent PM2.5 history
+pm2_5_lag_3h,New York,0.0501,Recent PM2.5 history
+pm2_5_lag_6h,New York,0.1047,Recent PM2.5 history
+pm2_5_lag_12h,New York,0.0094,Recent PM2.5 history
+pm2_5_lag_24h,New York,0.7363,Recent PM2.5 history
+pm2_5_lag_48h,New York,0.5492,Recent PM2.5 history
+pm2_5_lag_72h,New York,0.605,Recent PM2.5 history
+pm2_5_lag_168h,New York,1.1116,Recent PM2.5 history
+pm2_5_roll_mean_6h,New York,0.0446,Recent PM2.5 history
+pm2_5_roll_mean_24h,New York,0.0549,Recent PM2.5 history
+pm2_5_roll_mean_168h,New York,1.4419,Recent PM2.5 history
+pm2_5_roll_std_24h,New York,0.0287,Recent PM2.5 history
+pm2_5_roll_max_24h,New York,0.0449,Recent PM2.5 history
+pm2_5_roll_std_168h,New York,0.1063,Recent PM2.5 history
+wind_roll_mean_24h,New York,0.0473,Weather
+humidity_roll_mean_24h,New York,0.1604,Weather
+temp_roll_mean_24h,New York,0.2194,Weather
+precip_sum_24h,New York,0.3608,Weather
+pressure_change_24h,New York,0.448,Weather
+hour,New York,0.0688,Time / season
+day_of_week,New York,0.021,Time / season
+month,New York,0.0033,Time / season
+day_of_year,New York,0.0427,Time / season
+is_weekend,New York,0.0147,Time / season
+hour_sin,New York,0.1454,Time / season
+hour_cos,New York,0.0641,Time / season
+doy_sin,New York,0.0875,Time / season
+doy_cos,New York,0.1542,Time / season
+wind_dir_sin,New York,0.0227,Weather
+wind_dir_cos,New York,0.0477,Weather
+city_code,New York,4.5959,Location
+pm2_5,Paris,13.196,Recent PM2.5 history
+pm10,Paris,0.0509,Other pollutants
+nitrogen_dioxide,Paris,0.1673,Other pollutants
+ozone,Paris,0.063,Other pollutants
+carbon_monoxide,Paris,0.6708,Other pollutants
+us_aqi,Paris,0.0074,Other pollutants
+temperature_2m,Paris,0.4285,Weather
+relative_humidity_2m,Paris,0.0089,Weather
+wind_speed_10m,Paris,0.2014,Weather
+wind_direction_10m,Paris,0.0083,Weather
+surface_pressure,Paris,0.5346,Weather
+precipitation,Paris,0.0852,Weather
+cloud_cover,Paris,0.3671,Weather
+pm2_5_lag_1h,Paris,1.6738,Recent PM2.5 history
+pm2_5_lag_2h,Paris,0.0092,Recent PM2.5 history
+pm2_5_lag_3h,Paris,0.0617,Recent PM2.5 history
+pm2_5_lag_6h,Paris,0.1142,Recent PM2.5 history
+pm2_5_lag_12h,Paris,0.009,Recent PM2.5 history
+pm2_5_lag_24h,Paris,0.78,Recent PM2.5 history
+pm2_5_lag_48h,Paris,0.5542,Recent PM2.5 history
+pm2_5_lag_72h,Paris,0.5662,Recent PM2.5 history
+pm2_5_lag_168h,Paris,1.1434,Recent PM2.5 history
+pm2_5_roll_mean_6h,Paris,0.0285,Recent PM2.5 history
+pm2_5_roll_mean_24h,Paris,0.0568,Recent PM2.5 history
+pm2_5_roll_mean_168h,Paris,1.5559,Recent PM2.5 history
+pm2_5_roll_std_24h,Paris,0.0356,Recent PM2.5 history
+pm2_5_roll_max_24h,Paris,0.0359,Recent PM2.5 history
+pm2_5_roll_std_168h,Paris,0.0914,Recent PM2.5 history
+wind_roll_mean_24h,Paris,0.036,Weather
+humidity_roll_mean_24h,Paris,0.1592,Weather
+temp_roll_mean_24h,Paris,0.1335,Weather
+precip_sum_24h,Paris,0.3719,Weather
+pressure_change_24h,Paris,0.2582,Weather
+hour,Paris,0.0598,Time / season
+day_of_week,Paris,0.0198,Time / season
+month,Paris,0.0039,Time / season
+day_of_year,Paris,0.0402,Time / season
+is_weekend,Paris,0.0127,Time / season
+hour_sin,Paris,0.1327,Time / season
+hour_cos,Paris,0.0528,Time / season
+doy_sin,Paris,0.0775,Time / season
+doy_cos,Paris,0.1632,Time / season
+wind_dir_sin,Paris,0.0281,Weather
+wind_dir_cos,Paris,0.0541,Weather
+city_code,Paris,4.9304,Location
+pm2_5,Riyadh,54.7642,Recent PM2.5 history
+pm10,Riyadh,1.9679,Other pollutants
+nitrogen_dioxide,Riyadh,0.4827,Other pollutants
+ozone,Riyadh,0.3795,Other pollutants
+carbon_monoxide,Riyadh,1.247,Other pollutants
+us_aqi,Riyadh,2.8014,Other pollutants
+temperature_2m,Riyadh,0.5855,Weather
+relative_humidity_2m,Riyadh,0.8003,Weather
+wind_speed_10m,Riyadh,0.5123,Weather
+wind_direction_10m,Riyadh,0.6503,Weather
+surface_pressure,Riyadh,1.8221,Weather
+precipitation,Riyadh,0.1258,Weather
+cloud_cover,Riyadh,0.6813,Weather
+pm2_5_lag_1h,Riyadh,7.0181,Recent PM2.5 history
+pm2_5_lag_2h,Riyadh,0.2692,Recent PM2.5 history
+pm2_5_lag_3h,Riyadh,0.367,Recent PM2.5 history
+pm2_5_lag_6h,Riyadh,1.0824,Recent PM2.5 history
+pm2_5_lag_12h,Riyadh,0.24,Recent PM2.5 history
+pm2_5_lag_24h,Riyadh,3.2177,Recent PM2.5 history
+pm2_5_lag_48h,Riyadh,1.6254,Recent PM2.5 history
+pm2_5_lag_72h,Riyadh,3.5387,Recent PM2.5 history
+pm2_5_lag_168h,Riyadh,4.4468,Recent PM2.5 history
+pm2_5_roll_mean_6h,Riyadh,0.1742,Recent PM2.5 history
+pm2_5_roll_mean_24h,Riyadh,1.1388,Recent PM2.5 history
+pm2_5_roll_mean_168h,Riyadh,6.0108,Recent PM2.5 history
+pm2_5_roll_std_24h,Riyadh,0.4459,Recent PM2.5 history
+pm2_5_roll_max_24h,Riyadh,1.4042,Recent PM2.5 history
+pm2_5_roll_std_168h,Riyadh,4.989,Recent PM2.5 history
+wind_roll_mean_24h,Riyadh,1.263,Weather
+humidity_roll_mean_24h,Riyadh,3.1761,Weather
+temp_roll_mean_24h,Riyadh,1.2423,Weather
+precip_sum_24h,Riyadh,0.9353,Weather
+pressure_change_24h,Riyadh,0.8242,Weather
+hour,Riyadh,0.5385,Time / season
+day_of_week,Riyadh,0.9123,Time / season
+month,Riyadh,0.2349,Time / season
+day_of_year,Riyadh,0.783,Time / season
+is_weekend,Riyadh,0.5511,Time / season
+hour_sin,Riyadh,0.6652,Time / season
+hour_cos,Riyadh,0.3571,Time / season
+doy_sin,Riyadh,1.2816,Time / season
+doy_cos,Riyadh,2.6663,Time / season
+wind_dir_sin,Riyadh,0.6127,Weather
+wind_dir_cos,Riyadh,2.7512,Weather
+city_code,Riyadh,7.6424,Location
+pm2_5,Sao Paulo,9.7378,Recent PM2.5 history
+pm10,Sao Paulo,0.0651,Other pollutants
+nitrogen_dioxide,Sao Paulo,0.2821,Other pollutants
+ozone,Sao Paulo,0.0931,Other pollutants
+carbon_monoxide,Sao Paulo,0.6015,Other pollutants
+us_aqi,Sao Paulo,0.0102,Other pollutants
+temperature_2m,Sao Paulo,0.5453,Weather
+relative_humidity_2m,Sao Paulo,0.0079,Weather
+wind_speed_10m,Sao Paulo,0.1593,Weather
+wind_direction_10m,Sao Paulo,0.0219,Weather
+surface_pressure,Sao Paulo,0.3126,Weather
+precipitation,Sao Paulo,0.1957,Weather
+cloud_cover,Sao Paulo,0.2667,Weather
+pm2_5_lag_1h,Sao Paulo,1.3387,Recent PM2.5 history
+pm2_5_lag_2h,Sao Paulo,0.0114,Recent PM2.5 history
+pm2_5_lag_3h,Sao Paulo,0.0509,Recent PM2.5 history
+pm2_5_lag_6h,Sao Paulo,0.0861,Recent PM2.5 history
+pm2_5_lag_12h,Sao Paulo,0.01,Recent PM2.5 history
+pm2_5_lag_24h,Sao Paulo,0.6413,Recent PM2.5 history
+pm2_5_lag_48h,Sao Paulo,0.4293,Recent PM2.5 history
+pm2_5_lag_72h,Sao Paulo,0.615,Recent PM2.5 history
+pm2_5_lag_168h,Sao Paulo,1.0512,Recent PM2.5 history
+pm2_5_roll_mean_6h,Sao Paulo,0.0139,Recent PM2.5 history
+pm2_5_roll_mean_24h,Sao Paulo,0.0354,Recent PM2.5 history
+pm2_5_roll_mean_168h,Sao Paulo,0.9587,Recent PM2.5 history
+pm2_5_roll_std_24h,Sao Paulo,0.0394,Recent PM2.5 history
+pm2_5_roll_max_24h,Sao Paulo,0.0218,Recent PM2.5 history
+pm2_5_roll_std_168h,Sao Paulo,0.1172,Recent PM2.5 history
+wind_roll_mean_24h,Sao Paulo,0.0225,Weather
+humidity_roll_mean_24h,Sao Paulo,0.1269,Weather
+temp_roll_mean_24h,Sao Paulo,0.0276,Weather
+precip_sum_24h,Sao Paulo,0.4575,Weather
+pressure_change_24h,Sao Paulo,0.1463,Weather
+hour,Sao Paulo,0.0724,Time / season
+day_of_week,Sao Paulo,0.0184,Time / season
+month,Sao Paulo,0.0029,Time / season
+day_of_year,Sao Paulo,0.0339,Time / season
+is_weekend,Sao Paulo,0.015,Time / season
+hour_sin,Sao Paulo,0.1048,Time / season
+hour_cos,Sao Paulo,0.0489,Time / season
+doy_sin,Sao Paulo,0.0735,Time / season
+doy_cos,Sao Paulo,0.1568,Time / season
+wind_dir_sin,Sao Paulo,0.0406,Weather
+wind_dir_cos,Sao Paulo,0.0747,Weather
+city_code,Sao Paulo,1.562,Location
+pm2_5,Seoul,8.7199,Recent PM2.5 history
+pm10,Seoul,0.07,Other pollutants
+nitrogen_dioxide,Seoul,0.2722,Other pollutants
+ozone,Seoul,0.085,Other pollutants
+carbon_monoxide,Seoul,0.6891,Other pollutants
+us_aqi,Seoul,0.0244,Other pollutants
+temperature_2m,Seoul,0.5941,Weather
+relative_humidity_2m,Seoul,0.0233,Weather
+wind_speed_10m,Seoul,0.3953,Weather
+wind_direction_10m,Seoul,0.0212,Weather
+surface_pressure,Seoul,0.9379,Weather
+precipitation,Seoul,0.1441,Weather
+cloud_cover,Seoul,0.6869,Weather
+pm2_5_lag_1h,Seoul,1.2421,Recent PM2.5 history
+pm2_5_lag_2h,Seoul,0.0204,Recent PM2.5 history
+pm2_5_lag_3h,Seoul,0.0636,Recent PM2.5 history
+pm2_5_lag_6h,Seoul,0.1329,Recent PM2.5 history
+pm2_5_lag_12h,Seoul,0.0173,Recent PM2.5 history
+pm2_5_lag_24h,Seoul,0.6249,Recent PM2.5 history
+pm2_5_lag_48h,Seoul,0.4788,Recent PM2.5 history
+pm2_5_lag_72h,Seoul,0.7182,Recent PM2.5 history
+pm2_5_lag_168h,Seoul,1.0635,Recent PM2.5 history
+pm2_5_roll_mean_6h,Seoul,0.0392,Recent PM2.5 history
+pm2_5_roll_mean_24h,Seoul,0.0522,Recent PM2.5 history
+pm2_5_roll_mean_168h,Seoul,0.8303,Recent PM2.5 history
+pm2_5_roll_std_24h,Seoul,0.0393,Recent PM2.5 history
+pm2_5_roll_max_24h,Seoul,0.0523,Recent PM2.5 history
+pm2_5_roll_std_168h,Seoul,0.1117,Recent PM2.5 history
+wind_roll_mean_24h,Seoul,0.0625,Weather
+humidity_roll_mean_24h,Seoul,0.2045,Weather
+temp_roll_mean_24h,Seoul,0.3041,Weather
+precip_sum_24h,Seoul,0.4623,Weather
+pressure_change_24h,Seoul,0.2831,Weather
+hour,Seoul,0.1221,Time / season
+day_of_week,Seoul,0.0338,Time / season
+month,Seoul,0.0072,Time / season
+day_of_year,Seoul,0.0684,Time / season
+is_weekend,Seoul,0.0303,Time / season
+hour_sin,Seoul,0.2559,Time / season
+hour_cos,Seoul,0.0833,Time / season
+doy_sin,Seoul,0.1314,Time / season
+doy_cos,Seoul,0.192,Time / season
+wind_dir_sin,Seoul,0.0338,Weather
+wind_dir_cos,Seoul,0.0503,Weather
+city_code,Seoul,2.8028,Location
+pm2_5,Shanghai,14.1825,Recent PM2.5 history
+pm10,Shanghai,0.1431,Other pollutants
+nitrogen_dioxide,Shanghai,0.3215,Other pollutants
+ozone,Shanghai,0.1366,Other pollutants
+carbon_monoxide,Shanghai,1.2239,Other pollutants
+us_aqi,Shanghai,0.116,Other pollutants
+temperature_2m,Shanghai,0.5935,Weather
+relative_humidity_2m,Shanghai,0.097,Weather
+wind_speed_10m,Shanghai,0.322,Weather
+wind_direction_10m,Shanghai,0.0703,Weather
+surface_pressure,Shanghai,1.5849,Weather
+precipitation,Shanghai,0.1249,Weather
+cloud_cover,Shanghai,0.4241,Weather
+pm2_5_lag_1h,Shanghai,1.952,Recent PM2.5 history
+pm2_5_lag_2h,Shanghai,0.0857,Recent PM2.5 history
+pm2_5_lag_3h,Shanghai,0.2048,Recent PM2.5 history
+pm2_5_lag_6h,Shanghai,0.5024,Recent PM2.5 history
+pm2_5_lag_12h,Shanghai,0.0693,Recent PM2.5 history
+pm2_5_lag_24h,Shanghai,1.2748,Recent PM2.5 history
+pm2_5_lag_48h,Shanghai,0.7653,Recent PM2.5 history
+pm2_5_lag_72h,Shanghai,1.1013,Recent PM2.5 history
+pm2_5_lag_168h,Shanghai,1.4471,Recent PM2.5 history
+pm2_5_roll_mean_6h,Shanghai,0.0636,Recent PM2.5 history
+pm2_5_roll_mean_24h,Shanghai,0.1607,Recent PM2.5 history
+pm2_5_roll_mean_168h,Shanghai,1.3243,Recent PM2.5 history
+pm2_5_roll_std_24h,Shanghai,0.1293,Recent PM2.5 history
+pm2_5_roll_max_24h,Shanghai,0.2312,Recent PM2.5 history
+pm2_5_roll_std_168h,Shanghai,0.4301,Recent PM2.5 history
+wind_roll_mean_24h,Shanghai,0.169,Weather
+humidity_roll_mean_24h,Shanghai,0.5475,Weather
+temp_roll_mean_24h,Shanghai,0.5336,Weather
+precip_sum_24h,Shanghai,0.5709,Weather
+pressure_change_24h,Shanghai,0.6446,Weather
+hour,Shanghai,0.229,Time / season
+day_of_week,Shanghai,0.1213,Time / season
+month,Shanghai,0.0189,Time / season
+day_of_year,Shanghai,0.1875,Time / season
+is_weekend,Shanghai,0.0642,Time / season
+hour_sin,Shanghai,0.4131,Time / season
+hour_cos,Shanghai,0.2896,Time / season
+doy_sin,Shanghai,0.2767,Time / season
+doy_cos,Shanghai,0.495,Time / season
+wind_dir_sin,Shanghai,0.1191,Weather
+wind_dir_cos,Shanghai,0.2186,Weather
+city_code,Shanghai,3.4811,Location
+pm2_5,Sydney,12.943,Recent PM2.5 history
+pm10,Sydney,0.0558,Other pollutants
+nitrogen_dioxide,Sydney,0.1582,Other pollutants
+ozone,Sydney,0.0809,Other pollutants
+carbon_monoxide,Sydney,0.9386,Other pollutants
+us_aqi,Sydney,0.0065,Other pollutants
+temperature_2m,Sydney,0.1757,Weather
+relative_humidity_2m,Sydney,0.0077,Weather
+wind_speed_10m,Sydney,0.1637,Weather
+wind_direction_10m,Sydney,0.0086,Weather
+surface_pressure,Sydney,0.4603,Weather
+precipitation,Sydney,0.0915,Weather
+cloud_cover,Sydney,0.2394,Weather
+pm2_5_lag_1h,Sydney,1.6701,Recent PM2.5 history
+pm2_5_lag_2h,Sydney,0.0134,Recent PM2.5 history
+pm2_5_lag_3h,Sydney,0.0622,Recent PM2.5 history
+pm2_5_lag_6h,Sydney,0.1022,Recent PM2.5 history
+pm2_5_lag_12h,Sydney,0.0075,Recent PM2.5 history
+pm2_5_lag_24h,Sydney,0.7407,Recent PM2.5 history
+pm2_5_lag_48h,Sydney,0.5141,Recent PM2.5 history
+pm2_5_lag_72h,Sydney,0.5632,Recent PM2.5 history
+pm2_5_lag_168h,Sydney,1.0707,Recent PM2.5 history
+pm2_5_roll_mean_6h,Sydney,0.0269,Recent PM2.5 history
+pm2_5_roll_mean_24h,Sydney,0.0429,Recent PM2.5 history
+pm2_5_roll_mean_168h,Sydney,1.5846,Recent PM2.5 history
+pm2_5_roll_std_24h,Sydney,0.023,Recent PM2.5 history
+pm2_5_roll_max_24h,Sydney,0.0181,Recent PM2.5 history
+pm2_5_roll_std_168h,Sydney,0.0966,Recent PM2.5 history
+wind_roll_mean_24h,Sydney,0.0413,Weather
+humidity_roll_mean_24h,Sydney,0.1234,Weather
+temp_roll_mean_24h,Sydney,0.0464,Weather
+precip_sum_24h,Sydney,0.3299,Weather
+pressure_change_24h,Sydney,0.2426,Weather
+hour,Sydney,0.055,Time / season
+day_of_week,Sydney,0.0175,Time / season
+month,Sydney,0.0025,Time / season
+day_of_year,Sydney,0.0329,Time / season
+is_weekend,Sydney,0.0126,Time / season
+hour_sin,Sydney,0.1216,Time / season
+hour_cos,Sydney,0.0559,Time / season
+doy_sin,Sydney,0.0787,Time / season
+doy_cos,Sydney,0.1499,Time / season
+wind_dir_sin,Sydney,0.0294,Weather
+wind_dir_cos,Sydney,0.0492,Weather
+city_code,Sydney,3.9977,Location
+pm2_5,Tehran,11.6516,Recent PM2.5 history
+pm10,Tehran,0.0604,Other pollutants
+nitrogen_dioxide,Tehran,0.1679,Other pollutants
+ozone,Tehran,0.1129,Other pollutants
+carbon_monoxide,Tehran,1.4416,Other pollutants
+us_aqi,Tehran,0.0303,Other pollutants
+temperature_2m,Tehran,0.8024,Weather
+relative_humidity_2m,Tehran,0.0354,Weather
+wind_speed_10m,Tehran,0.3409,Weather
+wind_direction_10m,Tehran,0.022,Weather
+surface_pressure,Tehran,0.5234,Weather
+precipitation,Tehran,0.0758,Weather
+cloud_cover,Tehran,0.4769,Weather
+pm2_5_lag_1h,Tehran,1.503,Recent PM2.5 history
+pm2_5_lag_2h,Tehran,0.0432,Recent PM2.5 history
+pm2_5_lag_3h,Tehran,0.1163,Recent PM2.5 history
+pm2_5_lag_6h,Tehran,0.2015,Recent PM2.5 history
+pm2_5_lag_12h,Tehran,0.0185,Recent PM2.5 history
+pm2_5_lag_24h,Tehran,1.0027,Recent PM2.5 history
+pm2_5_lag_48h,Tehran,0.7199,Recent PM2.5 history
+pm2_5_lag_72h,Tehran,0.8136,Recent PM2.5 history
+pm2_5_lag_168h,Tehran,1.4369,Recent PM2.5 history
+pm2_5_roll_mean_6h,Tehran,0.0526,Recent PM2.5 history
+pm2_5_roll_mean_24h,Tehran,0.0563,Recent PM2.5 history
+pm2_5_roll_mean_168h,Tehran,0.8991,Recent PM2.5 history
+pm2_5_roll_std_24h,Tehran,0.0651,Recent PM2.5 history
+pm2_5_roll_max_24h,Tehran,0.082,Recent PM2.5 history
+pm2_5_roll_std_168h,Tehran,0.2036,Recent PM2.5 history
+wind_roll_mean_24h,Tehran,0.0879,Weather
+humidity_roll_mean_24h,Tehran,0.3451,Weather
+temp_roll_mean_24h,Tehran,0.3324,Weather
+precip_sum_24h,Tehran,0.3782,Weather
+pressure_change_24h,Tehran,0.1982,Weather
+hour,Tehran,0.1833,Time / season
+day_of_week,Tehran,0.0306,Time / season
+month,Tehran,0.0076,Time / season
+day_of_year,Tehran,0.1229,Time / season
+is_weekend,Tehran,0.0233,Time / season
+hour_sin,Tehran,0.2669,Time / season
+hour_cos,Tehran,0.1162,Time / season
+doy_sin,Tehran,0.1787,Time / season
+doy_cos,Tehran,0.4,Time / season
+wind_dir_sin,Tehran,0.0457,Weather
+wind_dir_cos,Tehran,0.1823,Weather
+city_code,Tehran,1.2616,Location
+pm2_5,Tokyo,8.3079,Recent PM2.5 history
+pm10,Tokyo,0.0427,Other pollutants
+nitrogen_dioxide,Tokyo,0.2721,Other pollutants
+ozone,Tokyo,0.0739,Other pollutants
+carbon_monoxide,Tokyo,0.492,Other pollutants
+us_aqi,Tokyo,0.0192,Other pollutants
+temperature_2m,Tokyo,0.4316,Weather
+relative_humidity_2m,Tokyo,0.0169,Weather
+wind_speed_10m,Tokyo,0.1461,Weather
+wind_direction_10m,Tokyo,0.0133,Weather
+surface_pressure,Tokyo,0.624,Weather
+precipitation,Tokyo,0.1214,Weather
+cloud_cover,Tokyo,0.5535,Weather
+pm2_5_lag_1h,Tokyo,1.18,Recent PM2.5 history
+pm2_5_lag_2h,Tokyo,0.0164,Recent PM2.5 history
+pm2_5_lag_3h,Tokyo,0.0732,Recent PM2.5 history
+pm2_5_lag_6h,Tokyo,0.1374,Recent PM2.5 history
+pm2_5_lag_12h,Tokyo,0.009,Recent PM2.5 history
+pm2_5_lag_24h,Tokyo,0.7432,Recent PM2.5 history
+pm2_5_lag_48h,Tokyo,0.502,Recent PM2.5 history
+pm2_5_lag_72h,Tokyo,0.7211,Recent PM2.5 history
+pm2_5_lag_168h,Tokyo,1.1057,Recent PM2.5 history
+pm2_5_roll_mean_6h,Tokyo,0.0719,Recent PM2.5 history
+pm2_5_roll_mean_24h,Tokyo,0.052,Recent PM2.5 history
+pm2_5_roll_mean_168h,Tokyo,0.8022,Recent PM2.5 history
+pm2_5_roll_std_24h,Tokyo,0.0414,Recent PM2.5 history
+pm2_5_roll_max_24h,Tokyo,0.0419,Recent PM2.5 history
+pm2_5_roll_std_168h,Tokyo,0.1133,Recent PM2.5 history
+wind_roll_mean_24h,Tokyo,0.0575,Weather
+humidity_roll_mean_24h,Tokyo,0.2112,Weather
+temp_roll_mean_24h,Tokyo,0.1479,Weather
+precip_sum_24h,Tokyo,0.4111,Weather
+pressure_change_24h,Tokyo,0.498,Weather
+hour,Tokyo,0.1161,Time / season
+day_of_week,Tokyo,0.0246,Time / season
+month,Tokyo,0.0116,Time / season
+day_of_year,Tokyo,0.0603,Time / season
+is_weekend,Tokyo,0.0162,Time / season
+hour_sin,Tokyo,0.19,Time / season
+hour_cos,Tokyo,0.0985,Time / season
+doy_sin,Tokyo,0.1209,Time / season
+doy_cos,Tokyo,0.1791,Time / season
+wind_dir_sin,Tokyo,0.0244,Weather
+wind_dir_cos,Tokyo,0.0696,Weather
+city_code,Tokyo,2.4187,Location
+pm2_5,ALL,15.232,Recent PM2.5 history
+pm10,ALL,0.1524,Other pollutants
+nitrogen_dioxide,ALL,0.2293,Other pollutants
+ozone,ALL,0.12,Other pollutants
+carbon_monoxide,ALL,0.8989,Other pollutants
+us_aqi,ALL,0.1431,Other pollutants
+temperature_2m,ALL,0.4804,Weather
+relative_humidity_2m,ALL,0.0542,Weather
+wind_speed_10m,ALL,0.2814,Weather
+wind_direction_10m,ALL,0.0487,Weather
+surface_pressure,ALL,0.6827,Weather
+precipitation,ALL,0.1236,Weather
+cloud_cover,ALL,0.4858,Weather
+pm2_5_lag_1h,ALL,2.0174,Recent PM2.5 history
+pm2_5_lag_2h,ALL,0.0462,Recent PM2.5 history
+pm2_5_lag_3h,ALL,0.1121,Recent PM2.5 history
+pm2_5_lag_6h,ALL,0.2097,Recent PM2.5 history
+pm2_5_lag_12h,ALL,0.0288,Recent PM2.5 history
+pm2_5_lag_24h,ALL,1.0374,Recent PM2.5 history
+pm2_5_lag_48h,ALL,0.6896,Recent PM2.5 history
+pm2_5_lag_72h,ALL,0.8936,Recent PM2.5 history
+pm2_5_lag_168h,ALL,1.4482,Recent PM2.5 history
+pm2_5_roll_mean_6h,ALL,0.0499,Recent PM2.5 history
+pm2_5_roll_mean_24h,ALL,0.1238,Recent PM2.5 history
+pm2_5_roll_mean_168h,ALL,1.4222,Recent PM2.5 history
+pm2_5_roll_std_24h,ALL,0.0753,Recent PM2.5 history
+pm2_5_roll_max_24h,ALL,0.1322,Recent PM2.5 history
+pm2_5_roll_std_168h,ALL,0.3696,Recent PM2.5 history
+wind_roll_mean_24h,ALL,0.1266,Weather
+humidity_roll_mean_24h,ALL,0.3509,Weather
+temp_roll_mean_24h,ALL,0.2797,Weather
+precip_sum_24h,ALL,0.6055,Weather
+pressure_change_24h,ALL,0.2621,Weather
+hour,ALL,0.1482,Time / season
+day_of_week,ALL,0.0802,Time / season
+month,ALL,0.0172,Time / season
+day_of_year,ALL,0.1252,Time / season
+is_weekend,ALL,0.0469,Time / season
+hour_sin,ALL,0.262,Time / season
+hour_cos,ALL,0.1286,Time / season
+doy_sin,ALL,0.2391,Time / season
+doy_cos,ALL,0.4195,Time / season
+wind_dir_sin,ALL,0.074,Weather
+wind_dir_cos,ALL,0.2053,Weather
+city_code,ALL,3.0216,Location
