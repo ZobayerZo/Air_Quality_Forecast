@@ -2,7 +2,7 @@
 
 # Air Quality Forecasting Dashboard: 24/48/72-hour PM2.5 for 30 cities
 
-**Live demo: https://airqualityforecast-nmjcejreqplygdpxmefshu.streamlit.app/?city=Dhaka ** · Built with PySpark, LightGBM, SHAP, Streamlit and GitHub Actions
+**Live demo: https://airqualityforecast-zobazo1.streamlit.app/?city=Dhaka ** · Built with PySpark, LightGBM, SHAP, Streamlit and GitHub Actions
 
 
 
@@ -123,7 +123,7 @@ In Dhaka, 24-hour accumulated rainfall is among the most influential weather fea
 ## Run it yourself
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git clone https://github.com/zobayerzo/air_quality_forecast
 cd YOUR-REPO
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
