@@ -8,6 +8,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+from effects import render_scene
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "dashboard"
 MODELS = ROOT / "models"
@@ -117,6 +119,9 @@ if default_city not in cities:
 city = st.sidebar.selectbox("Choose a city", cities, index=cities.index(default_city))
 st.query_params["city"] = city  # makes the URL shareable: ...?city=Dhaka
 
+fx_mode = st.sidebar.radio("Visual effects", ["Full", "Scene only", "Off"], horizontal=True,
+                           help="Animated weather and air-quality effects. Use Off for a plain look.")
+
 if age_h <= 36:
     st.sidebar.success(f"Live: forecast updated {age_h:.0f} h ago")
 else:
@@ -140,15 +145,14 @@ fc["lo"] = (fc["pm2_5_pred"] + fc["q10"]).clip(lower=0)
 fc["hi"] = fc["pm2_5_pred"] + fc["q90"]
 current = float(rc["pm2_5"].iloc[-1])
 label, color, txt = band(current)
-pulse = " pulse" if current > 55.4 else ""
-st.markdown(
-    f"""<div class="hero{pulse}" style="background:linear-gradient(135deg,{color},{color}cc);color:{txt}">
-<div style="opacity:.9">{city} · latest modeled PM2.5</div>
-<div class="big">{current:.0f} <span style="font-size:1.2rem;font-weight:500">µg/m³</span></div>
-<div style="font-size:1.15rem">{label} · {current / WHO:.1f}× the WHO annual guideline (5 µg/m³)</div>
-</div>""",
-    unsafe_allow_html=True,
-)
+lf = d["latest_feats"]
+wx = None
+if lf is not None and not lf[lf["city"] == city].empty:
+    wx = lf[lf["city"] == city].iloc[0]
+scene = render_scene(city, current, label, color, txt, wx,
+                     float(coords.loc[city, "longitude"]), fx_mode, WHO,
+                     data_time=rc["time"].iloc[-1])
+st.markdown(scene, unsafe_allow_html=True)
 
 tab_fc, tab_map, tab_time, tab_pat, tab_wi, tab_model, tab_shap = st.tabs(
     ["Forecast", "Live map", "Time machine", "Patterns & compare",
