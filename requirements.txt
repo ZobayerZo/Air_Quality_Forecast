@@ -1,4 +1,6 @@
-streamlit
-pandas<3
-pyarrow
-plotly>=5.24
+   streamlit==1.66.1
+   plotly==7.1.0
+   pandas==2.3.3
+   pyarrow==26.0.1
+   lightgbm==4.7.0
+   requests

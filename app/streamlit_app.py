@@ -8,6 +8,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+import live
 from effects import render_scene
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -108,8 +109,6 @@ def load_boosters():
 d = load_data()
 cities = sorted(d["recent"]["city"].unique())
 coords = d["recent"].drop_duplicates("city").set_index("city")[["latitude", "longitude"]]
-base_time = d["forecast"]["base_time"].max()
-age_h = (pd.Timestamp.now("UTC").tz_localize(None) - base_time).total_seconds() / 3600
 
 # ------------------------------------------------------------------ sidebar
 st.sidebar.title("🌫️ Air Quality Forecast")
@@ -122,10 +121,33 @@ st.query_params["city"] = city  # makes the URL shareable: ...?city=Dhaka
 fx_mode = st.sidebar.radio("Visual effects", ["Full", "Scene only", "Off"], horizontal=True,
                            help="Animated weather and air-quality effects. Use Off for a plain look.")
 
-if age_h <= 36:
-    st.sidebar.success(f"Live: forecast updated {age_h:.0f} h ago")
+live_on = st.sidebar.toggle("Live data", value=True,
+                            help="Fetch the latest hours from Open-Meteo when the page loads "
+                                 "(refreshed at most every 15 minutes). Turn off to use the "
+                                 "last saved snapshot.")
+live_error = None
+live_base = None
+if live_on:
+    items = tuple(sorted((c, (float(r.latitude), float(r.longitude)))
+                         for c, r in coords.iterrows()))
+    res = live.fetch_all(items)
+    if res.get("ok"):
+        d = live.merge_live(d, res)
+        live_base = res["forecast"]["base_time"].max()
+    else:
+        live_error = res.get("error", "unknown error")
+base_time = live_base if (live_on and live_error is None) else d["forecast"]["base_time"].max()
+age_h = (pd.Timestamp.now("UTC").tz_localize(None) - base_time).total_seconds() / 3600
+
+if live_on and live_error is None:
+    st.sidebar.success(f"Live data: latest hour {base_time:%H:%M} UTC ({age_h:.0f} h ago)")
+elif live_on:
+    st.sidebar.warning(f"Live fetch failed ({live_error}). Showing the last saved data "
+                       f"from {age_h:.0f} h ago.")
+elif age_h <= 36:
+    st.sidebar.info(f"Saved snapshot from {age_h:.0f} h ago")
 else:
-    st.sidebar.warning(f"Forecast is {age_h / 24:.1f} days old")
+    st.sidebar.warning(f"Saved snapshot is {age_h / 24:.1f} days old")
 st.sidebar.caption(
     "24/48/72-hour PM2.5 forecasts from LightGBM models trained on 4 years of hourly "
     "data for 30 cities (1M+ records)."
@@ -143,6 +165,7 @@ fc = (d["forecast"][d["forecast"]["city"] == city]
       .merge(d["intervals"], on=["city", "horizon_h"]).sort_values("horizon_h"))
 fc["lo"] = (fc["pm2_5_pred"] + fc["q10"]).clip(lower=0)
 fc["hi"] = fc["pm2_5_pred"] + fc["q90"]
+city_base = fc["base_time"].iloc[0]
 current = float(rc["pm2_5"].iloc[-1])
 label, color, txt = band(current)
 lf = d["latest_feats"]
@@ -201,7 +224,7 @@ with tab_fc:
                      delta=f"{r.pm2_5_pred - current:+.0f}", delta_color="inverse")
             c.caption(f"80% range {r.lo:.0f}–{r.hi:.0f}")
 
-    xs = [base_time] + list(fc["forecast_time"])
+    xs = [city_base] + list(fc["forecast_time"])
     ymax = max(rc["pm2_5"].tail(168).max(), fc["hi"].max()) * 1.15
     fig = go.Figure()
     lower = 0
@@ -224,7 +247,7 @@ with tab_fc:
                       margin=dict(l=10, r=10, t=30, b=10), legend=dict(orientation="h", y=1.1))
     fig.update_xaxes(rangeslider=dict(visible=True, thickness=0.06))
     st.plotly_chart(fig, width="stretch")
-    st.caption(f"Forecast issued from data ending {base_time:%Y-%m-%d %H:%M} UTC. "
+    st.caption(f"Forecast issued from data ending {city_base:%Y-%m-%d %H:%M} UTC. "
                "Background colours are the US EPA categories. Drag the slider under the "
                "chart to zoom.")
     export = fc[["city", "base_time", "horizon_h", "forecast_time", "pm2_5_pred", "lo", "hi"]]
